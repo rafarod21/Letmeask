@@ -1,11 +1,9 @@
-import { useState } from 'react';
+import { ButtonHTMLAttributes } from 'react';
 
-export const Button: React.FC = () => {
-  const [count, setCount] = useState(0);
+import '../styles/button.scss';
 
-  function handleClickButton() {
-    setCount(count + 1);
-  }
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
-  return <button onClick={handleClickButton}>{count}</button>;
+export const Button: React.FC<ButtonProps> = (props) => {
+  return <button className='button' {...props} />;
 };
