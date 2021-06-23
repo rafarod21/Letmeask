@@ -1,5 +1,5 @@
 <h1 align="center">
-  <Img src="https://github.com/rafarod21/Letmeask/blob/master/src/assets/images/logo.svg" width=500/>
+  <Img src="https://github.com/rafarod21/Letmeask/blob/master/src/assets/images/logo.svg" width=300/>
 
   <p>
     <img src="https://img.shields.io/static/v1?label=Status&message=Em%20desenvoldimento&color=yellow&style=flat&labelColor=3E3E3E">
@@ -7,7 +7,7 @@
   </p>
 </h1>
 
-Aplicação para contorle de perguntas em tempo real 🎥
+Aplicação para contorle de perguntas em tempo real 🎥🙋‍♂️
 
 ## Tópicos :scroll:
 
