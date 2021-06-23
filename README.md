@@ -1,13 +1,13 @@
-<h1 align="center">
+<p align="center">
   <Img src="https://github.com/rafarod21/Letmeask/blob/master/src/assets/images/logo.svg" width=300/>
 
-  <p>
+  <h3 align="center"> Controle de perguntas em tempo real 🎥🙋‍♂️ </h3>
+  
+  <p align="center">
     <img src="https://img.shields.io/static/v1?label=Status&message=Em%20desenvoldimento&color=yellow&style=flat&labelColor=3E3E3E">
     <img src="https://img.shields.io/static/v1?message=NLW%2F6-Togheter&label=ReactJS&color=8257E5&style=flat&logo=react&labelColor=informational">
   </p>
-</h1>
-
-Aplicação para contorle de perguntas em tempo real 🎥🙋‍♂️
+</p>
 
 ## Tópicos :scroll:
 
@@ -41,7 +41,7 @@ Aplicação para contorle de perguntas em tempo real 🎥🙋‍♂️
 
 ❌ Refresh de perguntas em tempo real
 
-❌ Integração com o Firebase
+✔️ Integração com o Firebase
 
 ## Layout :milky_way:
 
@@ -77,6 +77,7 @@ Em breve... 🛠️
 - [Typescript](https://www.typescriptlang.org)
 - [ReactJS](https://pt-br.reactjs.org)
 - [Firebase](https://firebase.google.com)
+- [Sass](https://sass-lang.com)
     
 ## Desenvolvedores/Contribuintes :octocat:
 
