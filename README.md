@@ -1,46 +1,91 @@
-# Getting Started with Create React App
+<p align="center">
+  <br>
+  <Img src="https://github.com/rafarod21/Letmeask/blob/master/src/assets/images/logo.svg" width=300/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center"> Controle de perguntas em tempo real 🎥🙋‍♂️ </h3>
+  
+  <p align="center">
+    <img src="https://img.shields.io/static/v1?label=Status&message=Em%20desenvoldimento&color=yellow&style=flat&labelColor=3E3E3E">
+    <img src="https://img.shields.io/static/v1?message=NLW%2F6-Togheter&label=ReactJS&color=8257E5&style=flat&logo=react&labelColor=informational">
+  </p>
+</p>
 
-## Available Scripts
+## Tópicos :scroll:
 
-In the project directory, you can run:
+:small_blue_diamond: [Detalhes do projeto](#detalhes-do-projeto-memo)
 
-### `yarn start`
+:small_blue_diamond: [Funcionalidades](#funcionalidades-stars)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+:small_blue_diamond: [Layout](#layout-milky_way)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+:small_blue_diamond: [Back-end](#back-end-card_file_box)
 
-### `yarn test`
+:small_blue_diamond: [JSON](#json-floppy_disk)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:small_blue_diamond: [Veja você mesmo](#veja-você-mesmo-arrow_forward)
 
-### `yarn build`
+:small_blue_diamond: [Tecnologias](#tecnologias-books)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+:small_blue_diamond: [Desenvolvedores/Contribuintes](#desenvolvedorescontribuintes-octocat)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Detalhes do projeto :memo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="justify">
+  Esta aplicação é um projeto desenvolvido na trilha ReactJS da Next Level Week #6/Together (NLW/6-Together), evento organizado pela Rocketseat 🚀
+</p>
 
-### `yarn eject`
+## Funcionalidades :stars:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+✔️ Autenticação
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+❌ Criar salas de perguntas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+❌ Refresh de perguntas em tempo real
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+✔️ Integração com o Firebase
 
-## Learn More
+## Layout :milky_way:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h3 align="center">
+  💻 Desktop 💻
+</h3>
+<p align="center">
+  Em breve... 🛠️
+</p>
+  
+<h3 align="center">
+  📱 Mobile 📱
+</h3>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">
+  Em breve... 🛠️
+</p>
+
+## Back-end :card_file_box:
+
+Em breve... 🛠️
+
+## JSON :floppy_disk:
+
+Em breve... 🛠️
+
+## Veja você mesmo :arrow_forward:
+
+Em breve... 🛠️
+  
+## Tecnologias :books:
+    
+- [Typescript](https://www.typescriptlang.org)
+- [ReactJS](https://pt-br.reactjs.org)
+- [Firebase](https://firebase.google.com)
+- [Sass](https://sass-lang.com)
+    
+## Desenvolvedores/Contribuintes :octocat:
+
+<img src="https://avatars0.githubusercontent.com/u/39251153?s=460&u=b18964e9a5e2c3c1ef9bc74ae8c35b11095c841b&v=4" width=115><br>
+<a aria-label="LinkedIn - Rafael Rodrigues" href="https://www.linkedin.com/in/rafael-montrezol-942a60170">
+    <img src="https://img.shields.io/static/v1?logo=linkedin&label=LinkedIn&message=Rafael%20Rodrigues&color=00A0DC&style=flat&labelColor=0077B5"> 
+</a>
+<a aria-label="GitHub - Rafael Rodrigues" href="https://github.com/rafarod21">
+    <img alt="GitHub - Rafael Rodrigues" src="https://img.shields.io/static/v1?logo=github&label=GitHub&message=Rafael%20Rodrigues&color=2FBB4F&style=flat&labelColor=211F1F"></img>
+</a>
