@@ -76,6 +76,58 @@ Em breve... 🛠️
 
 #### :small_blue_diamond: Deploy Firebase: [Letmeask](https://letmeask-nlw6-togheter.web.app/)
 
+#### :small_blue_diamond: Na própria máquina - Passo-a-passo
+
+##### Passo 1: Clonando o repositório
+
+```bash
+$ git clone https://github.com/rafarod21/nomeRepo.git
+```
+
+##### Passo 2: Acessando a pasta do projeto
+
+```bash
+$ cd nomeDoProjeto
+```
+
+##### Passo 3: Instalando as dependências com npm ou Yarn
+
+```bash
+# Utilizando npm
+$ npm install
+
+# Utilizando Yarn
+$ yarn install
+```
+
+##### Passo 4: No [Firebase](https://firebase.google.com/?hl=pt)
+
+- Criar um projeto (não é necessário o Google Analytics)
+- Configurar o projeto dentro do Firebase:
+  - Habilitar autenticação com o Google
+  - Criar o banco de dados Realtime Database em Modo bloqueado
+- Integrar com o projeto React:
+  - Na página inicial do projeto no Firebase, clique na opção web (</>) (não é necessário utilizar o Firebase Hosting)
+  - Atribuir os valores das variáveis de configuração do projeto no Firebase (firebaseConfig) para as do arquivo .env.example
+
+##### Passo 5: Renomear o arquivo ".env.example" para ".env.local"
+
+##### Passo XXX: Executando o projeto com npm ou Yarn
+
+```bash
+# Utilizando npm
+$ npm run dev
+
+# Utilizando Yarn
+$ yarn dev
+
+# O projeto deverá ser iniciado na porta 3000
+```
+
+##### Passo XXXX: Vizualizando o projeto
+
+Acesse: http://localhost:3000
+
 ## Tecnologias :books:
 
 - [Typescript](https://www.typescriptlang.org)
