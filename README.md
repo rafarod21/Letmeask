@@ -18,10 +18,6 @@
 
 :small_blue_diamond: [Layout](#layout-milky_way)
 
-:small_blue_diamond: [Back-end](#back-end-card_file_box)
-
-:small_blue_diamond: [JSON](#json-floppy_disk)
-
 :small_blue_diamond: [Veja você mesmo](#veja-você-mesmo-arrow_forward)
 
 :small_blue_diamond: [Tecnologias](#tecnologias-books)
@@ -63,14 +59,6 @@
 <p align="center">
   Em breve... 🛠️
 </p>
-
-## Back-end :card_file_box:
-
-Em breve... 🛠️
-
-## JSON :floppy_disk:
-
-Em breve... 🛠️
 
 ## Veja você mesmo :arrow_forward:
 
