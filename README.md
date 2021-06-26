@@ -50,7 +50,10 @@
   💻 Desktop 💻
 </h3>
 <p align="center">
-  Em breve... 🛠️
+  <Img src="https://github.com/rafarod21/Letmeask/blob/master/git-assets/Home.jpeg" width=400>
+  <Img src="https://github.com/rafarod21/Letmeask/blob/master/git-assets/CreateRoom.jpeg" width=400>
+  <Img src="https://github.com/rafarod21/Letmeask/blob/master/git-assets/AdminRoom.jpeg" width=400>
+  <Img src="https://github.com/rafarod21/Letmeask/blob/master/git-assets/Room.jpeg" width=400>
 </p>
   
 <h3 align="center">
@@ -71,7 +74,7 @@ Em breve... 🛠️
 
 ## Veja você mesmo :arrow_forward:
 
-Em breve... 🛠️
+#### :small_blue_diamond: Deploy Firebase: [Letmeask](https://letmeask-nlw6-togheter.web.app/)
 
 ## Tecnologias :books:
 
