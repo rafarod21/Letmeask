@@ -81,23 +81,23 @@ Em breve... 🛠️
 ##### Passo 1: Clonando o repositório
 
 ```bash
-$ git clone https://github.com/rafarod21/Letmeask.git
+git clone https://github.com/rafarod21/Letmeask.git
 ```
 
 ##### Passo 2: Acessando a pasta do projeto
 
 ```bash
-$ cd Letmeask
+cd Letmeask
 ```
 
 ##### Passo 3: Instalando as dependências com npm ou Yarn
 
 ```bash
 # Utilizando npm
-$ npm install
+npm install
 
 # Utilizando Yarn
-$ yarn install
+yarn install
 ```
 
 ##### Passo 4: No [Firebase](https://firebase.google.com/?hl=pt)
@@ -106,6 +106,29 @@ $ yarn install
 - Configurar o projeto dentro do Firebase:
   - Habilitar autenticação com o Google
   - Criar o banco de dados Realtime Database em Modo bloqueado
+  - Substituir as Regras do Realtime Database pelas seguintes:
+    ```JSON
+    {
+      "rules": {
+        "rooms": {
+          ".read": false,
+          ".write": "auth != null",
+          "$roomId": {
+            ".read": true,
+            ".write": "auth != null && (!data.exists() || data.child('authorId').val() == auth.id)",
+            "questions": {
+              ".read": true,
+              ".write": "auth != null && (!data.exists() || data.parent().child('authorId').val() == auth.id)",
+              "likes": {
+                ".read": true,
+                ".write": "auth != null && (!data.exists() || data.child('authorId').val() == auth.id)"
+              }
+            }
+          }
+        }
+      }
+    }
+    ```
 - Integrar com o projeto React:
   - Na página inicial do projeto no Firebase, clique na opção web (</>) (não é necessário utilizar o Firebase Hosting)
   - Atribuir os valores das variáveis de configuração do projeto no Firebase (firebaseConfig) para as do arquivo ".env.example"
@@ -116,10 +139,10 @@ $ yarn install
 
 ```bash
 # Utilizando npm
-$ npm run dev
+npm run dev
 
 # Utilizando Yarn
-$ yarn dev
+yarn dev
 
 # O projeto deverá ser iniciado na porta 3000
 ```
