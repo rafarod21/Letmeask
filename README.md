@@ -139,10 +139,10 @@ yarn install
 
 ```bash
 # Utilizando npm
-npm run dev
+npm run start
 
 # Utilizando Yarn
-yarn dev
+yarn start
 
 # O projeto deverá ser iniciado na porta 3000
 ```
