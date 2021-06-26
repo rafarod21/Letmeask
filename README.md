@@ -81,13 +81,13 @@ Em breve... 🛠️
 ##### Passo 1: Clonando o repositório
 
 ```bash
-$ git clone https://github.com/rafarod21/nomeRepo.git
+$ git clone https://github.com/rafarod21/Letmeask.git
 ```
 
 ##### Passo 2: Acessando a pasta do projeto
 
 ```bash
-$ cd nomeDoProjeto
+$ cd Letmeask
 ```
 
 ##### Passo 3: Instalando as dependências com npm ou Yarn
@@ -108,11 +108,11 @@ $ yarn install
   - Criar o banco de dados Realtime Database em Modo bloqueado
 - Integrar com o projeto React:
   - Na página inicial do projeto no Firebase, clique na opção web (</>) (não é necessário utilizar o Firebase Hosting)
-  - Atribuir os valores das variáveis de configuração do projeto no Firebase (firebaseConfig) para as do arquivo .env.example
+  - Atribuir os valores das variáveis de configuração do projeto no Firebase (firebaseConfig) para as do arquivo ".env.example"
 
 ##### Passo 5: Renomear o arquivo ".env.example" para ".env.local"
 
-##### Passo XXX: Executando o projeto com npm ou Yarn
+##### Passo 6: Executando o projeto com npm ou Yarn
 
 ```bash
 # Utilizando npm
@@ -124,7 +124,7 @@ $ yarn dev
 # O projeto deverá ser iniciado na porta 3000
 ```
 
-##### Passo XXXX: Vizualizando o projeto
+##### Passo 7: Vizualizando o projeto
 
 Acesse: http://localhost:3000
 
