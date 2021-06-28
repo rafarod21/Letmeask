@@ -5,7 +5,7 @@
   <h3 align="center"> Controle de perguntas em tempo real 🎥🙋‍♂️ </h3>
   
   <p align="center">
-    <img src="https://img.shields.io/static/v1?label=Status&message=Em%20desenvoldimento&color=yellow&style=flat&labelColor=3E3E3E">
+   <img src="https://img.shields.io/static/v1?label=Status&message=Conclu%C3%ADdo&color=brightgreen&style=flat&labelColor=3E3E3E">
     <img src="https://img.shields.io/static/v1?message=NLW%2F6-Togheter&label=ReactJS&color=8257E5&style=flat&logo=react&labelColor=informational">
   </p>
 </p>
